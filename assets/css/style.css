@@ -1,0 +1,85 @@
+:root {
+  /* Primary Colors */
+  --primary: #1a308f;
+  --primary-light: #586ba4;
+  --primary-dark: #112e46;
+  --primary-green: #3bd6b2;
+  --accent: #0080fa;
+  --accent-dark: #0039d6;
+  --navy: #005674;
+  --main-blue: #274bad;
+  --main-light: #2a54c7;
+
+  /* Neutral */
+  --dark: #1e1f21;
+  --dark-gray-50: #4b4b4d;
+  --dark-gray-75: #787879;
+  --dark-gray-100: #a5a5a6;
+  --light-gray: #d2d2d2;
+  --light-gray-50: #e8e8e8;
+  --off-white: #f3f3f3;
+  --background: #f7f8f9;
+
+  /* Status */
+  --error: #c33434;
+  --error-light: #fa4c4c;
+  --success: #24b57a;
+  --success-light: #00aaaf;
+  --success-dark: #3daa7e;
+  --warning: #e5a461;
+  --warning-light: #fbb56c;
+
+  /* Font weights */
+  --rustica-semi-light: 400;
+  --rustica-regular: 500;
+  --rustica-medium: 600;
+  --rustica-bold: 700;
+  --roc-grotesk-medium: 500;
+  --roc-grotesk-bold: 600;
+}
+
+/* defaults */
+body {
+  font-family: 'rustica', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: var(--dark-gray-50);
+  font-weight: var(--rustica-semi-light);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'roc-grotesk', sans-serif;
+  font-weight: var(--roc-grotesk-bold);
+  color: var(--dark);
+}
+
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 12px;
+}
